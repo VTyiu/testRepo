@@ -1,0 +1,110 @@
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.userInputs {
+  height: 400px;
+  width: 100%;
+  background-color: slateblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1 1 0;
+}
+
+.userInputs input {
+  margin: 5px;
+  font-size: 18px;
+  height: 30px;
+  width: 200px;
+  padding-left: 10px;
+}
+
+.userInputs button {
+  border: none;
+  width: 150px;
+  height: 30px;
+  background-color: cadetblue;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.userInputs button:hover {
+  cursor: pointer;
+}
+
+.matchInputs {
+  height: 400px;
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1 1 0;
+}
+
+.matchInputs input {
+  margin: 5px;
+  font-size: 18px;
+  height: 30px;
+  width: 200px;
+  padding-left: 10px;
+
+}
+
+.matchInputs button {
+  border: none;
+  width: 150px;
+  height: 30px;
+  background-color: cadetblue;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.showMatches {
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.matchContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.matchContainer button {
+  width: 300px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.matchButtons {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  margin-left: 5px;
+}
+
+.match {
+  width: 300px;
+  height: 250px;
+  background-color: bisque;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+ .match h3{
+  margin-left: 15px;
+  margin-top: 15px;
+ }
+
